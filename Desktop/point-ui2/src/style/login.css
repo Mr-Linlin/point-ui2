@@ -1,0 +1,227 @@
+.statusbar {
+  box-sizing: border-box;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #fffaf7;
+  padding-right: 29px;
+  padding-left: 42px;
+  width: 750px;
+  height: 88px;
+}
+.primary {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2px;
+  border-radius: 21px;
+  width: 108px;
+  height: 42px;
+  font-weight: 500;
+  line-height: 26px;
+  white-space: nowrap;
+}
+.time {
+  border-style: solid;
+  border-color: rgba(26, 26, 28, 1);
+  max-width: 96px;
+  overflow: hidden;
+  text-align: left;
+  text-overflow: ellipsis;
+  color: #1a1a1c;
+  font-family: PingFang SC;
+  font-size: 26px;
+}
+.side {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #ffffff;
+  width: 133px;
+  height: 24px;
+}
+.badge {
+  margin-right: 10px;
+  width: 36px;
+  height: 22px;
+}
+.iconWifi {
+  margin-right: 10px;
+  width: 28px;
+  height: 20px;
+}
+.group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -2px;
+  margin-right: 2px;
+  background-size: contain;
+  background-image: url(./img/img_3.png);
+  width: 44px;
+  height: 22px;
+}
+.mask {
+  border-style: solid;
+  border-radius: 2px;
+  border-color: rgba(26, 26, 28, 1);
+  background-color: #1a1a1c;
+  width: 36px;
+  height: 14px;
+}
+.dot {
+  width: 2px;
+  height: 8px;
+}
+.wrapper {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fffaf7;
+  width: 750px;
+  height: 1448px;
+}
+.body {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 80px;
+  background-color: #ffffff;
+  white-space: nowrap;
+}
+.group1 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  background-color: #ffffff;
+  width: 423px;
+  height: 72px;
+}
+.title {
+  position: relative;
+  margin-top: 6px;
+  max-width: 423px;
+  overflow: hidden;
+  text-align: left;
+  text-overflow: ellipsis;
+  line-height: 58px;
+  color: #1a1a1c;
+  font-family: PingFang SC;
+  font-size: 58px;
+  font-weight: 500;
+}
+.view {
+  box-sizing: border-box;
+  display: flex;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 6px;
+  background-color: #ff8f4e;
+  padding-right: 5px;
+  padding-left: 7px;
+  height: 32px;
+  line-height: 24px;
+}
+.count {
+  text-align: center;
+  color: #ffffff;
+  font-family: PingFang SC;
+  font-size: 24px;
+  font-weight: 400;
+}
+.group2 {
+  box-sizing: border-box;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 0px 16px 32px 0px rgba(204, 130, 88, 0.05000000074505806);
+  margin-top: 80px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  padding-right: 32px;
+  padding-left: 32px;
+  width: 600px;
+  height: 88px;
+  white-space: normal;
+}
+.caption {
+  text-align: center;
+  line-height: 28px;
+  white-space: pre;
+  color: #1a1a1c;
+  font-family: PingFang SC;
+  font-size: 28px;
+  font-weight: 500;
+}
+.iconClose {
+  width: 32px;
+  height: 32px;
+}
+.titleWrapper {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 32px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  width: 600px;
+  height: 88px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.title1 {
+  margin-left: 33px;
+  max-width: 534px;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+  color: #000000;
+  font-family: PingFang SC;
+  font-size: 28px;
+}
+.captionWrapper {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  box-shadow: 0px 20px 40px 0px rgba(255, 143, 78, 0.17000000178813934);
+  margin-top: 80px;
+  border-radius: 12px;
+  background-color: #ff8f4e;
+  width: 600px;
+  height: 88px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.caption1 {
+  max-width: 588px;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+  color: #ffffff;
+  font-family: PingFang SC;
+  font-size: 30px;
+}
+.footer {
+  position: relative;
+  margin-top: 823px;
+  border-radius: 5px;
+  background-color: #1a1a1c;
+  width: 180px;
+  height: 6px;
+}
